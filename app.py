@@ -12,10 +12,10 @@ toc_ppm = st.number_input(
 
 rel_feuchte = st.number_input(
     "Relative Feuchte [%]",
-    min_value=0.0,
-    max_value=100.0,
-    value=20.0,
-    step=1.0
+    min_value=0,
+    max_value=100,
+    value=20,
+    step=1
 )
 
 o2_gemessen = st.number_input(
@@ -28,10 +28,10 @@ o2_gemessen = st.number_input(
 
 o2_bezug = st.number_input(
     "O₂ Bezug [%]",
-    min_value=0.0,
-    max_value=20.9,
-    value=17.0,
-    step=1.0
+    min_value=0,
+    max_value=21,
+    value=17,
+    step=1
 )
 
 grenzwert1 = st.number_input(
