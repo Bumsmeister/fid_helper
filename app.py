@@ -92,7 +92,7 @@ try:
             color:white;
             font-weight:bold;
             text-align:center;">
-            Grenzwert 1: {text1}
+            Grenzwert LRV: {text1}
         </div>
         """,
         unsafe_allow_html=True
@@ -109,7 +109,7 @@ try:
             color:white;
             font-weight:bold;
             text-align:center;">
-            Grenzwert 2: {text2}
+            Grenzwert TA-Luft: {text2}
         </div>
         """,
         unsafe_allow_html=True
