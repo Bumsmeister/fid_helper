@@ -5,16 +5,16 @@ st.title("FID-Umrechner")
 # Eingaben
 toc_ppm = st.number_input(
     "Cgesamt (gemessen) [ppm]",
-    min_value=0.0,
-    value=0.0,
-    step=1.0
+    min_value=0,
+    value=0,
+    step=1
 )
 
 rel_feuchte = st.number_input(
     "Relative Feuchte [%]",
     min_value=0.0,
     max_value=100.0,
-    value=0.0,
+    value=20.0,
     step=1.0
 )
 
@@ -36,20 +36,23 @@ o2_bezug = st.number_input(
 
 grenzwert1 = st.number_input(
     "Grenzwert LRV [mg/m³]",
-    min_value=0.0,
-    value=80.0
+    min_value=0,
+    value=80,
+     step=5
 )
 
 grenzwert2 = st.number_input(
     "Grenzwert TA Luft [mg/m³]",
-    min_value=0.0,
-    value=50.0
+    min_value=0,
+    value=50,
+    step=5
 )
 
 toleranz = st.number_input(
     "Toleranz [%]",
-    min_value=0.0,
-    value=0.0
+    min_value=0,
+    value=5,
+   
 )
 
 # Berechnung
