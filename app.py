@@ -15,7 +15,7 @@ rel_feuchte = st.number_input(
     min_value=0.0,
     max_value=100.0,
     value=0.0,
-    step=1
+    step=1.0
 )
 
 o2_gemessen = st.number_input(
@@ -31,7 +31,7 @@ o2_bezug = st.number_input(
     min_value=0.0,
     max_value=20.9,
     value=17.0,
-    step=1
+    step=1.0
 )
 
 grenzwert1 = st.number_input(
