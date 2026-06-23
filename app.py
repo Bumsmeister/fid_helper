@@ -4,7 +4,7 @@ st.title("FID-Umrechner")
 
 # Eingaben
 toc_ppm = st.number_input(
-    "TOC (measured) [ppm]",
+    "Cgesamt (gemessen) [ppm]",
     min_value=0.0,
     value=0.0,
     step=1.0
@@ -66,7 +66,7 @@ try:
     st.subheader("Resultate")
 
     st.metric(
-        "TOC (calculated) [mg/m³]",
+        "Cgesamt (berechnet) [mg/m³]",
         f"{toc_calculated:.2f}"
     )
 
